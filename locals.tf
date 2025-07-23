@@ -3,7 +3,7 @@ locals {
     Project     = "DevOps-EKS"
     ManagedBy   = "Terraform"
     Owner       = "Team-Infra"
-    CreatedAt   = "2025-07-22"
+    CreatedAt   = "2025-07-23"
     Environment = "Dev"
   }
 }
