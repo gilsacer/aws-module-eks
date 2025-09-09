@@ -1,6 +1,10 @@
 # aws-module-eks
 EKS infra IAC - AWS
 
+## Diagram
+
+<img src="AWS-module-eks.png" width="500">
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -29,7 +33,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | Networking CIDR Block to be used for VPC | `string` | `"10.2.0.0/16"` | no |
+| <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | Networking CIDR Block to be used for VPC | `string` | `"10.200.0.0/16"` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Project name to be used to the name the resources | `string` | `"DevOps-EKS"` | no |
 
 ## Outputs
